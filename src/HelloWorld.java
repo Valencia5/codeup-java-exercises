@@ -75,17 +75,6 @@ public class HelloWorld {
         System.out.println(++littleNum); //went from 127 to -128
         //when the iteration is going to go [ast the rage of values the type can hold, it jumps to the other end of the range.
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }
 
