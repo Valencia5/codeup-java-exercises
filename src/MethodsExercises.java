@@ -28,7 +28,7 @@ public class MethodsExercises {
         int userNumber = scanner.nextInt();
 
         if (userNumber >= min && userNumber <= max){
-            System.out.println("This is the user number: " + userNumber + "and it is between 1 & 20.");
+            System.out.println("This is the user number: " + userNumber + " and it is between 1 & 20.");
             return userNumber;
         }else{
             System.out.printf("Please choose a number between: ", min, max);
@@ -36,29 +36,29 @@ public class MethodsExercises {
         }
 
         //    Calculate the factorial of a number.
-        public static int factorial() {
-            Scanner scanner = new Scanner(System.in);
-            String toContinue;
-            int userInt;
-            int factorial = 1;
-            String middle = "1";
-
-            do {
-                userInt = getInteger(1, 10);
-
-                for (int i = 1; i <= userInt; i++) {
-                    if (i > 1) {
-                        middle += " x " + i;
-                    }
-                    factorial *= i; // multiply by iterator
-                    System.out.printf("%s! = %-40s = %s%n", i, middle, factorial);
-                    //pos ut space before and neg put space after
-                }
-                System.out.println("Would you like to enter another number to add to factorial? (Yes/No)");
-                toContinue = scanner.nextLine();
-            } while (toContinue.equalsIgnoreCase("Yes"));
-            return factorial;
-        }
+//        public static int factorial() {
+//            Scanner scanner = new Scanner(System.in);
+//            String toContinue;
+//            int userInt;
+//            int factorial = 1;
+//            String middle = "1";
+//
+//            do {
+//                userInt = getInteger(1, 10);
+//
+//                for (int i = 1; i <= userInt; i++) {
+//                    if (i > 1) {
+//                        middle += " x " + i;
+//                    }
+//                    factorial *= i; // multiply by iterator
+//                    System.out.printf("%s! = %-40s = %s%n", i, middle, factorial);
+//                    //pos ut space before and neg put space after
+//                }
+//                System.out.println("Would you like to enter another number to add to factorial? (Yes/No)");
+//                toContinue = scanner.nextLine();
+//            } while (toContinue.equalsIgnoreCase("Yes"));
+//            return factorial;
+//        }
 
 
 //        public static int dice() {
