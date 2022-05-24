@@ -1,4 +1,4 @@
-package util;
+package shapes;
 
 public class Rectangle {
     protected int length;
